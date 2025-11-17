@@ -1,0 +1,45 @@
+img {
+    height: 200px;
+    width: 400px;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.square   {
+    position: relative;
+}
+.squareA {
+    position: absolute; 
+    top: 0px;
+    left: 500px
+}
+.squareB img {
+    position:fixed;
+    height: 200px;
+    width: 200px;
+    border-radius: 50px;
+
+
+}
+p {
+    position: absolute;
+    border: 5px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    top: 20px;
+    left: 50px;
+}
+.A {
+    background-color: darkred;
+}
+.squareB {
+    padding-top: 20px;
+}
+
+
+
+
+body {
+    margin: 0px;
+    padding-bottom: 2000px
+}
